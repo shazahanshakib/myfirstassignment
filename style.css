@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 100px 0px 100px;
+    background: rgba(13, 19, 33, 0.03);
 }
 .nav-section h3{
     color: rgb(13, 19, 33);
@@ -299,6 +300,7 @@
     text-align: left;
 }
 .single-card p{
+    height: 52px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 14px;
@@ -438,6 +440,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .supportsec-div{
     width: 1140px;
@@ -506,10 +509,12 @@
 /* footer section  */
 .footer-section{
     width: 100%;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
 }
 .footersec-div{
     width: 1140px;
